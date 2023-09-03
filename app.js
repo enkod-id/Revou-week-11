@@ -90,6 +90,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 const mysqlCon = mysql.createConnection({
+    MYSQL_URL:mysql://root:CqJtnTuPg1Bop8tDloXq@containers-us-west-70.railway.app:6457/railway,
     MYSQLHOST:containers-us-west-70.railway.app,
     MYSQLPORT:6457,
     MYSQLUSER:root,
