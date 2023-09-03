@@ -90,11 +90,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 const mysqlCon = mysql.createConnection({
-    host: 'localhost',
-    port:3306,
-    user:'root',
-    password:'',
-    database:'2023_blogs',
+    MYSQLHOST:containers-us-west-70.railway.app,
+    MYSQLPORT:6457,
+    MYSQLUSER:root,
+    MYSQLPASSWORD:CqJtnTuPg1Bop8tDloXq,
+    MYSQLDATABASE:railway,
 })
 
 app.use(bodyParser.json())
