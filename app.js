@@ -296,11 +296,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 const mysqlCon = mysql.createConnection({
-    host: 'localhost',
-    port:3306,
-    user:'root',
-    password:'',
-    database:'2023_blogs',
+      host: 'containers-us-west-70.railway.app',
+          user: 'root',
+          password: 'CqJtnTuPg1Bop8tDloXq',
+          port: 6457,
+          protocol: 'TCP',
+          database: 'railways'
 })
 
 app.use(bodyParser.json())
