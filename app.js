@@ -95,7 +95,7 @@ const mysqlCon = mysql.createConnection({
     password: 'CqJtnTuPg1Bop8tDloXq',
     port: 6457,
     protocol: 'TCP',
-    database: 'railway'
+    database: 'MySql'
 });
 
 app.use(bodyParser.json())
